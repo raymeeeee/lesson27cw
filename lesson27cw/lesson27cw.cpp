@@ -1,5 +1,5 @@
-#include "Scanner.h"
-#include "Printer.h"
+#include "Xerox.h"
+
 int main()
 {
     //Scanner a;
@@ -11,7 +11,9 @@ int main()
     //cout << "===========================" << endl;
     //cout << "Info:\n" << a.getText() << endl;
 
-    Printer::printFile("Hello world!", "file2.txt", 3);
-    
+   /* Printer::printFile("Hello world!", "file2.txt", 3);*/
+    Xerox b;
+    b.copyFile("file1.txt", 2);
+
 }
 
